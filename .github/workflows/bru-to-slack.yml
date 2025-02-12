@@ -20,7 +20,7 @@ jobs:
           zip -r bru-files.zip zipped/
 
       - name: Upload Zip as Artifact (Optional)
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4  # ✅ Updated to v4
         with:
           name: bru-files
           path: bru-files.zip
