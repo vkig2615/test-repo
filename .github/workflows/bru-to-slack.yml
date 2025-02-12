@@ -29,7 +29,7 @@ jobs:
         env:
           SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
           SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
-          SLACK_CHANNEL_ID: "C01ABCDEF12"  # ✅ Replace with your actual Slack channel ID
+          SLACK_CHANNEL_ID: "C08CGR2483Y"  # ✅ Replace with your actual Slack channel ID
         run: |
           curl -F file=@bru-files.zip \
                -F "initial_comment=Latest API test collections (.bru files)" \
